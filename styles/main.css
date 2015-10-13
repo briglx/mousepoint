@@ -1,0 +1,27 @@
+main {
+    height: 600px;
+    border: 1px solid #333;
+    position: relative;
+}
+
+.guy{
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.gun {
+
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+    height: 100px;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
