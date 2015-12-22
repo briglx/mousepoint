@@ -15,7 +15,9 @@ main {
 }
 
 .gun {
-
+    
+    border-top-left-radius:2em;
+    border-top-right-radius:2em;
     position: absolute;
     bottom: 0;
     width: 10px;

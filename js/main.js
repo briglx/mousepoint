@@ -25,9 +25,6 @@ $(function(){
 
 });
 
-
-
-
 function rotate(el, deg){
     reset(el);
 
